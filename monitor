@@ -1,0 +1,4 @@
+>>> search = re.escape('Sortes\index[persons]{Sortes}')
+>>> match = 'test Sortes\index[persons]{Sortes} text'
+>>> re.search(search, match)
+<_sre.SRE_Match object; span=(5, 34), match='Sortes\\index[persons]{Sortes}'>
